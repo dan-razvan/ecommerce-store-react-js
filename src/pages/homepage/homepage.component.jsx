@@ -7,8 +7,6 @@ const Homepage = (props) => {
   console.log(props)
   return (
     <div className="homepage">
-      {/* <Link to="/hats">Hats</Link> */}
-      <button onClick={() => props.history.push('/hats')}>Hats</button>
       <Directory />
     </div>
   )
